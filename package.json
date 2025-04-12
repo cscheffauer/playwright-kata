@@ -1,0 +1,27 @@
+{
+  "name": "playwright-kata",
+  "packageManager": "yarn@3.2.4",
+  "engines": {
+    "node": ">=20.0.0",
+    "npm": ">=8.0.0"
+  },
+  "version": "1.0.0",
+  "main": "index.js",
+  "repository": "https://github.com/cscheffauer/playwright-kata.git",
+  "license": "MIT",
+  "devDependencies": {
+    "@axe-core/playwright": "^4.10.1",
+    "@playwright/test": "^1.51.1",
+    "@types/node": "^22.14.1",
+    "axe-html-reporter": "^2.2.11"
+  },
+  "scripts": {
+    "test": "playwright test",
+    "test:chrome": "playwright test --project='chrome'",
+    "test:firefox": "playwright test --project='firefox'",
+    "test:edge": "playwright test --project='msedge'",
+    "test:safari": "playwright test --project='webkit'",
+    "test:debug": "playwright test --debug",
+    "test:report": "playwright show-report"
+  }
+}

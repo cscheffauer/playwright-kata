@@ -5,7 +5,8 @@
 - Install [Git](https://git-scm.com/downloads)
 - Install [Node.js](https://nodejs.org/en/download/) (v20.15.1)
 - Install [Yarn](https://yarnpkg.com/getting-started/install)
-- Run `yarn` in terminal
+- Clone this repository (see instructions on top)
+- Run `yarn` in terminal, at the root of repository
 - Run `npx playwright install` in terminal to download all necessary browsers for testing
 
 ## Verify you are ready to go

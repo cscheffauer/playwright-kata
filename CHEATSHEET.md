@@ -28,6 +28,9 @@ The following args can be used in combination with all the commands above:
 # Run in headed mode
 ... --headed
 
+# Update snapshots (for visual regression testing)
+... --update-snapshots
+
 # Run in UI mode
 ... --ui
 
